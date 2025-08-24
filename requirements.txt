@@ -1,0 +1,56 @@
+# Core ML dependencies
+torch>=2.6.0 --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.40.0
+datasets>=2.18.0
+
+# API dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+slowapi>=0.1.9
+
+# Security and authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+bcrypt>=4.0.1
+
+# Web interface
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Visualization dependencies
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Database and caching
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+redis>=5.0.0
+psycopg2-binary>=2.9.0
+
+# Monitoring and observability
+prometheus-client>=0.17.0
+structlog>=23.1.0
+sentry-sdk[fastapi]>=1.32.0
+psutil>=5.9.0
+
+# Multilingual support
+langdetect>=1.0.9
+googletrans>=4.0.0rc1
+
+# Testing and development
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Code quality and security
+safety>=2.3.0
+bandit>=1.7.0
+pre-commit>=3.3.0
