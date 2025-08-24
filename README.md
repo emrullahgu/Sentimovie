@@ -33,7 +33,7 @@ IMDb film yorumlarında duygu analizi yapan modern ve kullanıcı dostu bir sist
 ### Kurulum
 ```bash
 # Projeyi klonla
-git clone https://github.com/emrullahgunay/sentimovie.git
+git clone https://github.com/emrullahgu/Sebtimovie/sentimovie.git
 cd sentimovie
 
 # Kurulum scriptini çalıştır
